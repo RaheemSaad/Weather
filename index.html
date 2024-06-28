@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./logo.png" class="m-2" alt="">
+
+                <div class="site-tittle d-inline-block ">
+                    <h6 class="text-white fw-bolder">Weather</h6>
+                    <p class="fs-6 text-secondary">tagline goes here</p>
+                </div>
+
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse p-5" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active mx-4 fs-6 text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4 fs-6 text-white" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4 fs-6 text-white" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4 fs-6 text-white" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-4 fs-6 text-white" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="pt-5">
+        <div class="container">
+            <div class="inner position-relative">
+                <input type="text" class="form-control search rounded-5 p-3" placeholder="Find your location...">
+                <button class="btn p-3 px-5 rounded-5 text-white position-absolute find-btn">Find</button>
+            </div>
+        </div>
+
+        <div class="container mt-5 py-5">
+            <div class="row g-3">
+                <div class="col-md-4 p-0">
+                    <div class="inner rounded-5">
+                        <div class="title d-flex justify-content-between align-items-center p-2">
+                            <div class="todayDay" style="color: #BFB6B3;">
+                                <h6>Today</h6>
+    
+                            </div>
+                            <div class="todayDate" style="color: #BFB6B3;">
+                                <h6>27june</h6>
+    
+    
+                            </div>
+                        </div>
+                        <div class="content p-3">
+                            <div class="cityName fs-4" style="color: #BFB6B3;">
+    
+                            </div>
+                            <div class="degree fs-1 text-white">
+    
+                            </div>
+                            <div>
+                                <img src="" alt="" class="icon">
+    
+                            </div>
+                            <div class="text text-info mb-2">
+    
+                            </div>
+                            <span class="humidity" style="color: #BFB6B3;">20%  </span>
+                            <span class="wind" style="color: #BFB6B3;">15km/h  </span>
+                            <span class="direction" style="color: #BFB6B3;">west  </span>
+    
+    
+    
+    
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 p-0">
+                    <div class="inner rounded-5 text-center">
+                        <div class="title2 p-3 ">
+                            <div class="tomorowDay" style="color: #BFB6B3;">
+                                <h6>tomorow</h6>
+    
+                            </div>
+                        </div>
+                        <div class="content2 p-3">
+                            <div>
+                                <img src="" alt="" class="tomorowIcon">
+    
+                            </div>
+                            <div class="tomorowMaxDegree fs-2 text-white">
+    
+                            </div>
+                            <div class="tomorowMinDegree fs-4 text-white">
+    
+                            </div>
+                            <div class="tomorowText text-info mt-5">
+    
+                            </div>    
+    
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 p-0">
+                    <div class="inner p-0 rounded-5 text-center">
+                        <div class="title p-2 ">
+                            <div class="tomorowDay" style="color: #BFB6B3;">
+                                <h6>tomorow</h6>
+    
+                            </div>
+                        </div>
+                        <div class="content p-3">
+                            <div>
+                                <img src="" alt="" class="tomorowIcon">
+    
+                            </div>
+                            <div class="tomorowMaxDegree fs-2 text-white">
+    
+                            </div>
+                            <div class="tomorowMinDegree fs-4 text-white">
+    
+                            </div>
+                            <div class="tomorowText text-info mt-5">
+    
+                            </div>    
+    
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="inner-footer d-flex justify-content-center align-items-center">
+                    <div class="container mt-5">
+                        <div class="inner position-relative">
+                            <input type="text" class="form-control rounded-5 p-3 w-75 "
+                                placeholder="Enter your email to Subscribe...">
+                            <button class="btn rounded-5 text-white position-absolute subscribe-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="social d-flex justify-content-center align-items-center gap-4">
+                        <a href="#"><i class="fa-brands fa-facebook-f fs-4"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fs-4"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g fs-4"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p fs-4"></i></a>
+                    </div>
+
+
+                </div>
+
+
+                <p class="text-secondary mt-4 w-100"> Copyright 2014 Company name. Designed by Themezy. All rights
+                    reserved</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
