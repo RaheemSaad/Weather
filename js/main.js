@@ -19,7 +19,7 @@ var week = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
 var month = ["January","February","March","April","May","June","July","August","Septemper","Octobr","November","December"]
 
 async function getWeather(parameter) {
-    var res = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=be4052faf09243a9bb290741242606&q=${parameter}&days=7`);
+    var res = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=be4052faf09243a9bb290741242606&q=${parameter}&days=7`);
     allWeather = await res.json();
     displayToday();
     displayTomorow();
